@@ -5,7 +5,7 @@ collections:
   archives: 
     output: true
     
-    
+    <!-- For cloudcannon -->
 _options:
   content:
     styles: /editor.css
