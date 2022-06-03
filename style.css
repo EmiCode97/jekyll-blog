@@ -362,7 +362,7 @@ nav a:hover {
   text-transform: uppercase;
   opacity: 0.5;
   font-size: 0.8rem;
-  margin-right: 0.4rem;
+  margin-right: 0.4rem; 
 }
 
 .post-info {
