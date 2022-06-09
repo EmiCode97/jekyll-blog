@@ -66,7 +66,7 @@ section { position: relative; }
 .padded-l-0 { padding-left: 0; }
 .padded-r-0 { padding-right: 0; }
 
-
+.padded-r-1 { padding-right: 1rem; }
 
 
 /* Margin Utility Classes */ 
@@ -111,7 +111,7 @@ section { position: relative; }
 
 .bg-image {
     background-color: var(--light); /* Set a fall-back color while images are loading */ 
-    background-image: url('https://source.unsplash.com/8Ogfqvw15Rg/1600x1600');
+    background-image: url('https://source.unsplash.com/gCr0amJXOts/1600x1600');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -435,6 +435,124 @@ hr.short.center {
   margin:auto;
   margin: 1rem auto;
 }
+
+
+
+
+/* banner scroll */ 
+.banner,
+.banner-with-header {
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+}
+
+.fixed {
+  background-attachment: fixed;
+}
+
+
+/* contact form*/
+input, 
+textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 0.3rem;
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: 0.8rem;
+  border: 2px solid transparent;
+  text-align: center;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid #c87564;
+  outline: none;
+}
+
+.button {
+  padding: 0.7rem 0.8rem;
+  background-color: #c87564;
+  appearance: none;
+  border: transparent;
+  color: inherit;
+  font-size: 0.7rem;
+}
+
+
+
+
+.capped-width {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.capped-width-narrow {
+  max-width: 900px;
+  margin: auto;
+}
+
+.flex-flip-alternate:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+
+
+
+
+/* bg-overlay 
+
+.banner {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  padding: 5%;
+}
+
+.banner h2 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+} */
+
+.bg-overlay {
+  position: relative;
+}
+
+.bg-overlay::before {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+	bottom: 0;
+	right: 0;
+  background-color: rgba(245, 240, 240, 0.74);
+}
+
+.bg-overlay > * {
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+ /* copyright */ 
+ .subtle { 
+  opacity: 0.8;
+  font-size: 0.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  
+ }
+
 
 
 

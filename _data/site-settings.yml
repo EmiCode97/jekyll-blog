@@ -1,5 +1,5 @@
 seo: 
-  site_name: Tina's Amazing Blog
+  site_name: The Blog
   title: Default SEO Title
   description: 
   keywords: 
@@ -13,11 +13,11 @@ social:
 design: 
   dark-text_color: 'rgb(60,60,65)'
   medium-text_color: 'rgb(90,90,95)'
-  light-text_color: '#f7f5f3'
-  featured-text_color: 'red'
+  light-text_color: '#ffffff'
+  featured-text_color: '#D9B9AB'
   dark_color: 'rgb(60,60,65)'
   medium_color: '#ede8e4'
   light_color: '#f7f5f3'
   v-light_color: '#f9f9f9'
-  featured_color: '#6495ed'
+  featured_color: '#D9B9AB'
   accent_color: 'rgb(167, 74, 74)'
